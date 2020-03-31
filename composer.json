@@ -1,6 +1,7 @@
 {
   "name": "fgalvao/shiffer-client-api",
   "description": "Api client for Shiffer",
+  "homepage": "https://github.com/ffgalvao/shiffer-client-api",
   "type": "library",
   "license": "MIT",
   "authors": [
