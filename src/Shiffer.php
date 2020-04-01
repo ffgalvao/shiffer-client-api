@@ -54,7 +54,7 @@ class Shiffer
      *
      * @return Response
      */
-    public function delivery(string $signedRequestUrl)
+    public static function delivery(string $signedRequestUrl)
     {
         return static::client()->delivery($signedRequestUrl);
     }
@@ -68,7 +68,7 @@ class Shiffer
      *
      * @return Response
      */
-    public function earning(string $provisionId, array $params)
+    public static function earning(string $provisionId, array $params)
     {
         return static::client()->earning($provisionId, $params);
     }
