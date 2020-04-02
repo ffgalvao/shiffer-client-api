@@ -1,2 +1,2 @@
-# shiffer-client-api
-Php Client for Shiffer
+# shiffle-client-api
+Php Client for Shiffle
