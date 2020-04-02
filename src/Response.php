@@ -1,6 +1,6 @@
 <?php
 
-namespace fgalvao\Shiffer;
+namespace fgalvao\Shiffle;
 
 use Psr\Http\Message\ResponseInterface;
 

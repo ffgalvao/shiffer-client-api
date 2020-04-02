@@ -1,7 +1,7 @@
 <?php
 
 
-namespace fgalvao\Shiffer;
+namespace fgalvao\Shiffle;
 
 
 use GuzzleHttp\Client;

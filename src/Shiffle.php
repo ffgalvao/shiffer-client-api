@@ -1,11 +1,11 @@
 <?php
 
-namespace fgalvao\Shiffer;
+namespace fgalvao\Shiffle;
 
 use GuzzleHttp\Client;
 use InvalidArgumentException;
 
-class Shiffer
+class Shiffle
 {
     
     public static $subscriptionKey;

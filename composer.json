@@ -1,7 +1,7 @@
 {
-  "name": "fgalvao/shiffer-client-api",
-  "description": "Api client for Shiffer",
-  "homepage": "https://github.com/ffgalvao/shiffer-client-api",
+  "name": "fgalvao/shiffle-client-api",
+  "description": "Api client for Shiffle",
+  "homepage": "https://github.com/ffgalvao/shiffle-client-api",
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -20,12 +20,12 @@
   },
   "autoload": {
     "psr-0": {
-      "fgalvao\\Shiffer": "src/"
+      "Shiffle": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "fgalvao\\Shiffer\\Tests\\": "tests/"
+      "fgalvao\\Shiffle\\Tests\\": "tests/"
     }
   },
   "minimum-stability": "stable"
