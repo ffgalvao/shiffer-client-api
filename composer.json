@@ -20,12 +20,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Shiffle\\": "src/"
+      "fGalvao\\Shiffle\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Shiffle\\Tests\\": "tests/"
+      "fGalvao\\Shiffle\\Tests\\": "tests/"
     }
   },
   "minimum-stability": "stable"
