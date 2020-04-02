@@ -1,6 +1,6 @@
 <?php
 
-namespace fgalvao\Shiffle;
+namespace fGalvao\Shiffle;
 
 use GuzzleHttp\Client;
 use InvalidArgumentException;
@@ -30,7 +30,7 @@ class Shiffle
         
         if (!static::$client) {
             $client = new Client([
-                'verify'      => static::$devMode,
+                'verify'      => !static::$devMode,
                 'http_errors' => false,
                 'timeout'     => 3,
                 // Base URI is used with relative requests
