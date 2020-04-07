@@ -28,7 +28,7 @@ class Response
         $this->statusCode   = $response->getStatusCode();
         $this->reasonPhrase = $response->getReasonPhrase();
         $this->body         = $this->decodeBody($response);
-        $this->status       = $this->statusCode === 200;
+        $this->status       = ($this->statusCode >= 200 && $this->statusCode < 300);
     }
     
     

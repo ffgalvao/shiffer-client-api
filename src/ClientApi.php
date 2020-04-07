@@ -81,11 +81,14 @@ class ClientApi
     
     /**
      *{
-     *  "totalEarned": 3.5,
-     *  "earnedDateTime": "2019-05-29T09:10:08Z",
-     *  "description": "Gourmet Burger",
-     *  "fee": 3,
-     *  "tip": 0.5
+     *  "providerRef": "1bc3d9df-1619-40c1-b1a6-069b932fdd46",
+     *  "status": "confirmed",
+     *  "jobDateTime" : "2020-04-02T10:42:17Z",
+     *  "description" : "Mc Donalds",
+     *  "longDescription": "A more detailed and optional provider defined description.",
+     *  "fee": "4.00",
+     *  "tip": "1.00",
+     *  "total": "5.00"
      *}
      * @param string $provisionId
      * @param array  $params
