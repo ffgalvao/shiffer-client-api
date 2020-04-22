@@ -8,6 +8,10 @@ use InvalidArgumentException;
 class Shiffle
 {
     
+    public const EARNING_STATUS_PENDING   = 'pending';
+    public const EARNING_STATUS_CONFIRMED = 'confirmed';
+    public const EARNING_STATUS_DELETED   = 'deleted';
+    
     public static $subscriptionKey;
     
     public static $devMode = false;
@@ -50,6 +54,7 @@ class Shiffle
     
     /**
      * Add a new Delivery
+     *
      * @param string $signedRequestUrl
      *
      * @return Response
