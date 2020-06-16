@@ -22,7 +22,7 @@ class Shiffle
     
     private static $baseUri = [
         'live' => 'https://api.shiffle.com',
-        'dev'  => 'https://dev.api.shiffle.com',
+        'dev'  => 'https://staging.api.shiffle.com',
     ];
     
     
